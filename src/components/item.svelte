@@ -1,3 +1,3 @@
 <h1>
-  svelte-app
+  svelte-app-app
 </h1>
