@@ -12,8 +12,8 @@
   "dependencies": {
     "@astrojs/node": "^5.1.1",
     "@astrojs/svelte": "^2.1.0",
-    "@astrojs/vercel": "^3.2.4",
     "@unocss/astro": "^0.51.4",
+    "@astrojs/vercel": "^3.2.4",
     "astro": "^2.3.0",
     "svelte": "^3.58.0",
     "unocss": "^0.51.4"
