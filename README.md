@@ -18,3 +18,9 @@ https://www.cincheng.top/
 https://radiant-resonance-7z8d.vercel.app/
 ```
 
+
+# netlify 部署
+https://app.netlify.com/sites/stellar-croquembouche-eb5670/deploys/643e6e90be0fd932f8f8b025
+
+访问
+https://netlify--stellar-croquembouche-eb5670.netlify.app/
