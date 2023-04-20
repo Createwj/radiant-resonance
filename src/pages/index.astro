@@ -4,12 +4,31 @@ import Item from "../components/item.svelte";
 
 // 示例：从 Node.js 中导入内置模块 "fs/promises"
 
+// 设置cookie
+Astro.response.headers.set('Set-Cookie', 'a=b; Path=/;');
+
+// 重定向
+// Astro.redirect('/login');
 
 ---
 
 <Layout title="Welcome to Astro.">
+
   <main>
+  
+  <h3>import. meta.env.MODE: {import.meta.env.MODE}</h3>
+    <div>你的 IP 地址是：<span class="address">{ Astro.clientAddress }</span></div>
+    <h4>当前链接是：{Astro.url}</h4>
+    <h4>当前链接路径名是：{Astro.url.pathname}</h4>
+    <h4>当前链接源是：{Astro.url.origin}</h4>
+
+    <p>由 <a href="https://astro.build">{Astro.generator}</a> 构建</p>
+
+    <p>Received a {Astro.request.method} request to "{Astro.request.url}".</p>
+    <p>Received request headers: <code>{JSON.stringify(Object.fromEntries(Astro.request.headers))}</code></p>
+
     <h1><span class="text-gradient">about🚴‍♀️🚴🚴netlify</span></h1>
+
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque sed eum laudantium
     alias quas officia nostrum perspiciatis debitis! Assumenda, veritatis? Iure sit
     neque minima reiciendis dolorum! Adipisci ab nihil veritatis!

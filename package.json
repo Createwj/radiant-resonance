@@ -15,7 +15,8 @@
     "@unocss/astro": "^0.51.4",
     "astro": "^2.3.0",
     "svelte": "^3.58.0",
-    "unocss": "^0.51.4"
+    "unocss": "^0.51.4",
+    "vite": "^4.2.2"
   },
   "devDependencies": {
     "prettier": "^2.8.7",
