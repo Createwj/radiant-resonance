@@ -8,7 +8,9 @@ import Unocss from "@unocss/astro";
 
 // https://astro.build/config
 export default defineConfig({
+  // 开启服务端渲染
   output: "server",
+  // 使用node部署 其他部署方式: Cloudflare  Deno  Netlify   Vercel
   adapter: node({
     mode: "standalone",
   }),
