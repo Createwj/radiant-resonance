@@ -2,8 +2,8 @@ export const info = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve({
-        name: 'index'
+        name: "index",
       });
-    }, 100)
+    }, 100);
   });
-}
+};

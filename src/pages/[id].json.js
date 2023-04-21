@@ -38,12 +38,12 @@ export async function get({ params }) {
   const product = {
     name: "张三",
     age: 18,
-  }
+  };
 
   return new Response(JSON.stringify(product), {
     status: 200,
     headers: {
-      "Content-Type": "application/json"
-    }
+      "Content-Type": "application/json",
+    },
   });
 }
